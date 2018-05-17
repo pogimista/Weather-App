@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "1098775218972",
+    "firebase_url": "https://com-homecredit-exam.firebaseio.com",
+    "project_id": "com-homecredit-exam",
+    "storage_bucket": "com-homecredit-exam.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1098775218972:android:5addc5f309d95fc9",
+        "android_client_info": {
+          "package_name": "com.homecredit.exam"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1098775218972-gv67980jlvv22vgr61nod9n4bc5tqvql.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAgNDPEndiBnvvwUUlJZnb3d860HwoBGhE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

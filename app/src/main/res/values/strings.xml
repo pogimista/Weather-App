@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Weather App</string>
+
+    <string name="error_generic">Please check your connection and try again</string>
+    <string name="error_title">Error</string>
+
+    <string name="loading_get_info_list">Initializing...</string>
+    <string name="loading_get_users">Getting users...</string>
+
+    <string name="label_tap_to_refresh">TAP TO REFRESH</string>
+</resources>

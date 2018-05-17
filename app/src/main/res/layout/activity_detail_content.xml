@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/bg_gradient"
+            android:orientation="horizontal"
+            android:padding="15dp">
+
+            <TextView
+                android:id="@+id/txt_detail_place"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="LONDON"
+                android:textColor="@android:color/white"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/text_detail_weather"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/iv_detail_icon"
+                android:layout_toRightOf="@+id/iv_detail_icon"
+                android:text="Drizzle"
+                android:textColor="@color/White" />
+
+            <TextView
+                android:id="@+id/text_detail_desc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/text_detail_weather"
+                android:layout_toRightOf="@+id/iv_detail_icon"
+                android:text="sasda"
+                android:textColor="@color/White" />
+
+            <ImageView
+                android:id="@+id/iv_detail_icon"
+                android:layout_width="@dimen/cast_expanded_controller_control_toolbar_min_height"
+                android:layout_height="@dimen/cast_expanded_controller_control_toolbar_min_height"
+                android:layout_alignParentRight="false"
+                android:layout_below="@+id/txt_detail_place"
+                android:layout_centerHorizontal="false"
+                android:layout_centerInParent="false"
+                android:layout_centerVertical="false"
+                android:layout_margin="@dimen/small_font" />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="@dimen/medium_font">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="@dimen/medium_margin">
+
+                <TextView
+                    android:layout_width="@dimen/icon_width"
+                    android:layout_height="wrap_content"
+                    android:text="Temperature"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/txt_detail_temperature"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="TextView" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="@dimen/medium_margin">
+
+                <TextView
+                    android:layout_width="@dimen/icon_width"
+                    android:layout_height="wrap_content"
+                    android:text="Pressure"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/txt_detail_pressure"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="TextView" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="@dimen/medium_margin">
+
+                <TextView
+                    android:layout_width="@dimen/icon_width"
+                    android:layout_height="wrap_content"
+                    android:text="Humidity"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/txt_detail_humidity"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="TextView" />
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>
